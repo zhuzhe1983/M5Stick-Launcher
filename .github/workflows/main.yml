@@ -241,6 +241,17 @@
                   bootloader_addr: "0x0",
                 },
               }
+            - {
+                vendor: "Lilygo",
+                name: "T-Deck Plus",
+                description: "",
+                link: "",
+                family: "ESP32-S3",
+                env: "lilygo-t-deck-plus",
+                partitions: {
+                  bootloader_addr: "0x0",
+                },
+              }
 
       steps:
           - uses: actions/checkout@v4
